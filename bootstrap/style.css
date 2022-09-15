@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background: linear-gradient(90deg, #ECE9E6 0%, #ECE0D6 100%);
+    border-radius: 0px 0px 0px 56px;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 37.36px 122.8px 0px 48.77px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 0;
+    height:28.63px;
+    border: 2px solid #2A2B21;
+    margin:0px 40.47px 0px 41.51px
+}
+
+.nav_links{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_item{
+    margin-right: 37.6px;
+}
+
+.nav_link{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #2A2B21;
+}
+
+.reg-btn, 
+.burger-menu{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-btns{
+   display: flex;
+}
+
+.burger-menu img{
+    width: 51.05px;
+    height: 27.6px;
+}
+
+.burger-menu{
+    margin-left: 49.59px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 205.41px 0px 158px;
+    padding-bottom: 191px;
+    flex-wrap: wrap;
+}
+
+.header-title-span{
+    color: #FFB368;
+}
+
+.header-titles h1 {
+    font-size: 72px;
+    line-height: 75px;
+    color: #224769;
+    height: 293.58px;
+}
+
+.header-titles p {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(42, 43, 33, 0.58);
+    height: 116.59px;
+}
+
+.title-btn{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #ECE6E1;
+    background: linear-gradient(90deg, rgba(255, 179, 104, 0.95) 0%, rgba(245, 145, 46, 0.95) 96.35%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
+    margin: 50.57px 0px 87.09px 0px;
+    cursor: pointer;
+}
+
+.cube-img{
+    width: 598.4px;
+}
+
+.header-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    
+}
+
+.card-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 8px solid rgba(150, 137, 124, 0.4);
+    box-shadow: 0px 4px 30px 1px rgba(121, 220, 225, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    height: 228.81px;
+    width: 27%;
+}
+
+.card-box p{
+    margin-left: 29.56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #224769;
+}
+
+.flex-card{
+    display: flex;
+    align-items: center;
+    gap: 34.45px;
+    padding: 25.82px 0px 33.88px 28.69px;
+}
+
+.flex-card span{
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D3E5B;
+}
+
+.logo-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68.89px;
+    width: 68.89px;
+    background-color: #68B4FF;
+    border-radius: 100%;
+}
+
+.ui-ux-logo{
+    height: 40px;
+    width: 40px;
+}
+
+#section-1{
+    margin-top: 277px;
+    background: linear-gradient(90deg, #ECE0D6 0%, #ECE9E6 100%);
+    border-radius: 0px 71px 0px 0px;
+}
+
+.large-img{
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+
+.section-1-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 308.99px;
+}
+
+.section-1-content h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #224769;
+}
+
+.section-1-content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    color: #224769;
+}
+
+.puzzle{
+    display: flex;
+    margin-top:383px;
+    justify-content: center;
+}
+.puzzle-img{
+    display: flex;
+}
+.motherboard{
+    width: 609px;
+    height: 360px;
+}
+
+.girl{
+    width: 459px;
+    height: 287px;
+}
+
+.phone{
+    width: 609px;
+    height: 543px;
+}
+
+.tower{
+    width: 459px;
+    height: 616px;
+}
+
+.hend{
+    width: 504px;
+    height: 1000px;
+}
+
+#section-2{
+    background: linear-gradient(90deg, #ECE0D6 0%, #ECE9E6 100%);
+    border-radius: 0px 0px 50px 0px;
+}
+
+.company{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 55.66px;
+    flex-wrap: wrap;
+    padding-top: 426px;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    margin-top: 410.63px;
+    gap: 101px;
+}
+
+.numbers{
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(104, 180, 255, 0.75);
+}
+
+.section-2-span{
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B3752;
+}
+
+.section-2-products{
+    flex-wrap: wrap;
+}
+
+.section-2-products p{
+    color: #1B3752;
+    font-weight: 500;
+}
+
+.prod-list{
+    padding-top: 57%;
+}
+
+.prod-list-3{
+    padding-top: 65%;
+}
+
+.prod-list-5{
+    padding-top: 65%;
+}
+
+#footer{
+    margin-top: 222px;
+    position: relative;
+}
+
+.contanct-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanct-info h3{
+    margin: 0px 319px 0px 221px;
+}
+.map{
+    width: 49%;
+    height: 913px;
+}
+
+.cosial-media{
+    display: flex;
+    background: linear-gradient(90deg, #ECE9E6 0%, #ECE0D6 100%);
+    border-radius: 50px 0px 0px 0px;
+}
+
+.webdoors-footer-logo{
+    padding: 66.06px 0px 137.75px 66.06px;
+}
+
+.dmca{
+    padding-left: 66.06px;
+    gap:33.73px
+}
+
+.copyright{
+    padding: 67.47px 0px 66.06px 66.06px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B3752;
+}
+
+.social-icons{
+    margin:87px 73px 0px 392px;
+}
